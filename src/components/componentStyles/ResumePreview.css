@@ -1,0 +1,132 @@
+.resume-preview {
+	padding-left: 5vw;
+	font-family: "Montserrat";
+}
+
+.resume-personal-container {
+	height: 15vh;
+	width: 35vw;
+	background-color: cadetblue;
+	color: white;
+}
+
+.full-name {
+	padding-top: 1.5vh;
+	text-align: center;
+	font-size: 2.5rem;
+}
+
+.personal-info-container {
+	margin-bottom: 2vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	font-size: 1.2rem;
+}
+
+.personal-info-container li {
+	text-decoration: none;
+	list-style: none;
+}
+
+.resume-other-container {
+	background-color: white;
+	width: 35vw;
+	height: 100vh;
+	margin-bottom: 5vh;
+}
+
+.resume-preview-container {
+	display: flex;
+	flex-direction: column;
+	padding-top: 3vh;
+}
+
+.resume-other-container h1 {
+	text-align: center;
+	height: auto;
+	background-color: rgb(243, 244, 246, 255);
+	margin: 3vh auto;
+	width: 85%;
+	font-size: 1.7rem;
+}
+
+.education-info-container,
+.experience-info-container,
+.projects-info-container {
+	width: 85%;
+	margin: 0 auto;
+	display: flex;
+	font-size: 1.2rem;
+}
+
+.skills-section-info-container {
+	width: 85%;
+	margin: 0 auto;
+	font-size: 1.2rem;
+}
+
+.webtech,
+.programLanguage,
+.softwareTool,
+.concepts {
+	display: flex;
+}
+.webTech-label,
+.programLanguage-label,
+.softwareTool-label,
+.concepts-label {
+	font-weight: bold;
+	margin-bottom: 2vh;
+	margin-right: 0.3vw;
+}
+
+.education-school-and-degree {
+	padding-left: 1.5vw;
+}
+.education-school,
+.experience-position,
+.experience-company {
+	font-weight: bold;
+	padding-bottom: 0.5vh;
+}
+
+.experience-jobDescription,
+.project-description {
+	padding-bottom: 0.5vh;
+	line-height: 1.4;
+}
+
+.dates {
+	padding-bottom: 0.5vh;
+}
+
+.links-text {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.6rem;
+	color: blue;
+}
+
+.links-text:hover {
+	color: rgb(100, 100, 227);
+}
+
+.experience-company-position-jobDescription {
+	padding-left: 1.5vw;
+	max-width: 70%;
+}
+
+.projects-info-container {
+	display: flex;
+	flex-direction: column;
+	gap: 1.2vh;
+}
+.projects-name-and-languages {
+	display: flex;
+	align-items: center;
+	gap: 0.3vw;
+}
+.divider {
+	font-size: 2rem;
+}

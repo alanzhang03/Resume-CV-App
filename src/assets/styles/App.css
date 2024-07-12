@@ -1,0 +1,13 @@
+.App {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(243, 244, 246, 255);
+}
+
+.content-container {
+	display: flex;
+	flex-direction: row;
+}
+
+

@@ -1,0 +1,34 @@
+.footer-container {
+	background-color: cadetblue;
+	height: 8vh;
+	width: 100%;
+	margin-top: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer-text {
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.Logo {
+	background-image: url(../images/github-logo.png);
+	width: 4vh;
+	height: 2vw;
+	padding-left: 0.2vw;
+}
+.Logo:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.github-logo-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2vh;
+}

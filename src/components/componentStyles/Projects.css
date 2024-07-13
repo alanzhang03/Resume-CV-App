@@ -14,7 +14,11 @@
 	justify-content: space-between;
 	align-items: center;
 	cursor: pointer;
-	padding-bottom: 1rem;
+	padding-bottom: 0.5rem;
+}
+
+.projects-header-form-text {
+	font-size: 1.5rem;
 }
 
 .projects-header h1 {
@@ -80,8 +84,8 @@
 }
 
 .projects-form textarea {
-    height: 12vh;
-    font-size: 0.95rem;
-    line-height: 1.5;
-    padding: 10px;
+	height: 12vh;
+	font-size: 0.95rem;
+	line-height: 1.5;
+	padding: 10px;
 }

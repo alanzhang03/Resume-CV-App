@@ -21,7 +21,7 @@ export default function Skills({
 	return (
 		<div className="skills">
 			<div className="skills-header" onClick={toggleFormVisibility}>
-				<h1>
+				<h1 className="skills-header-form-text">
 					<span role="img" aria-label="skills-icon">
 						💻
 					</span>{" "}

@@ -21,7 +21,7 @@ export default function Projects({
 	return (
 		<div className="projects">
 			<div className="projects-header" onClick={toggleFormVisibility}>
-				<h1>
+				<h1 className="projects-header-form-text">
 					<span role="img" aria-label="projects-icon">
 						📁
 					</span>{" "}

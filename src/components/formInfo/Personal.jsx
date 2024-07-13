@@ -21,7 +21,7 @@ export default function Personal({
 	return (
 		<div className="personal">
 			<div className="personal-header" onClick={toggleFormVisibility}>
-				<h1>
+				<h1 className="personal-header-form-text">
 					<span role="img" aria-label="personal-icon">
 						👤
 					</span>{" "}

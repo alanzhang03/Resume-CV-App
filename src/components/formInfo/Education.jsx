@@ -23,7 +23,7 @@ export default function Education({
 	return (
 		<div className="education">
 			<div className="education-header" onClick={toggleFormVisibility}>
-				<h1>
+				<h1 className="education-header-form-text">
 					<span role="img" aria-label="education-icon">
 						🎓
 					</span>{" "}

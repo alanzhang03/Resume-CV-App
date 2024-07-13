@@ -25,7 +25,7 @@ export default function Experience({
 	return (
 		<div className="experience">
 			<div className="experience-header" onClick={toggleFormVisibility}>
-				<h1>
+				<h1 className="experience-header-form-text">
 					<span role="img" aria-label="experience-icon">
 						💼
 					</span>{" "}

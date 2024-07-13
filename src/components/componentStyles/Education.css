@@ -1,76 +1,76 @@
 :root {
-    --input-color-bg: rgb(243, 244, 246);
+	--input-color-bg: rgb(243, 244, 246);
 }
 
 .education {
-    border-radius: 10px;
-    padding: 1rem;
-    background-color: white;
-    margin-bottom: 2vh;
+	border-radius: 10px;
+	padding: 1rem;
+	background-color: white;
+	margin-bottom: 2vh;
 }
 
 .education-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
-    padding-bottom: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	cursor: pointer;
+	padding-bottom: 0.5rem;
 }
 
 .education-header h1 {
-    display: flex;
-    align-items: center;
-    margin: 0;
+	display: flex;
+	align-items: center;
+	margin: 0;
 }
 
 .toggle-button {
-    background: none;
-    border: none;
-    font-size: 1.5rem;
-    cursor: pointer;
-    transition: transform 0.3s;
-    margin-left: auto; 
+	background: none;
+	border: none;
+	font-size: 1.5rem;
+	cursor: pointer;
+	transition: transform 0.3s;
+	margin-left: auto;
 }
 
 .rotate {
-    transform: rotate(180deg);
+	transform: rotate(180deg);
 }
 
 .education-details-form-container {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.5s ease-out, padding 0.5s ease-out;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.5s ease-out, padding 0.5s ease-out;
 }
 
 .education-details-form-container.visible {
-    padding-top: 1rem;
+	padding-top: 1rem;
 }
 
 .education-details-form-container.hidden {
-    padding-top: 0;
+	padding-top: 0;
 }
 
 .education-details-form {
-    display: flex;
-    flex-direction: column;
-    gap: 2vh;
+	display: flex;
+	flex-direction: column;
+	gap: 2vh;
 }
 
 .education-details-form label {
-    font-size: 1.5rem;
-    font-weight: bold;
+	font-size: 1.5rem;
+	font-weight: bold;
 }
 
 .education-details-form input {
-    border-radius: 15px;
-    height: 4vh;
-    width: 25vw;
-    background-color: var(--input-color-bg);
-    border: 2px solid transparent;
-    transition: border-color 0.5s;
+	border-radius: 15px;
+	height: 4vh;
+	width: 25vw;
+	background-color: var(--input-color-bg);
+	border: 2px solid transparent;
+	transition: border-color 0.5s;
 }
 
 .education-details-form input:focus {
-    border-color: blue;
-    outline: none;
+	border-color: blue;
+	outline: none;
 }

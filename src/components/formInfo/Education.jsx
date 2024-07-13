@@ -3,15 +3,11 @@ import "../componentStyles/Education.css";
 
 export default function Education({
 	school,
-	handleSchoolChange,
 	degree,
-	handleDegreeChange,
 	startDate,
-	handleStartDateChange,
 	endDate,
-	handleEndDateChange,
 	location,
-	handleLocationChange,
+	handleChange,
 }) {
 	const [isFormVisible, setIsFormVisible] = useState(false);
 	const formRef = useRef(null);
@@ -53,7 +49,7 @@ export default function Education({
 						id="school"
 						name="school"
 						value={school}
-						onChange={handleSchoolChange}
+						onChange={handleChange}
 						placeholder="Enter school/university name"
 						required
 					/>
@@ -64,7 +60,7 @@ export default function Education({
 						id="degree"
 						name="degree"
 						value={degree}
-						onChange={handleDegreeChange}
+						onChange={handleChange}
 						placeholder="Enter Degree / Field of study"
 					/>
 
@@ -74,7 +70,7 @@ export default function Education({
 						id="startDate"
 						name="startDate"
 						value={startDate}
-						onChange={handleStartDateChange}
+						onChange={handleChange}
 						placeholder="Enter Start Date"
 					/>
 
@@ -84,17 +80,17 @@ export default function Education({
 						id="endDate"
 						name="endDate"
 						value={endDate}
-						onChange={handleEndDateChange}
+						onChange={handleChange}
 						placeholder="Enter End Date"
 					/>
 
 					<label htmlFor="location">Location</label>
 					<input
-						type="location"
+						type="text"
 						id="location"
 						name="location"
 						value={location}
-						onChange={handleLocationChange}
+						onChange={handleChange}
 					/>
 				</form>
 			</div>

@@ -6,10 +6,7 @@ export default function Skills({
 	webTech,
 	softwareTool,
 	concepts,
-	handleProgrammingLanguagesChange,
-	handleWebTechChange,
-	handleSoftwareToolChange,
-	handleConceptsChange,
+	handleChange,
 }) {
 	const [isFormVisible, setIsFormVisible] = useState(false);
 	const formRef = useRef(null);
@@ -51,7 +48,7 @@ export default function Skills({
 						id="programmingLanguages"
 						name="programmingLanguages"
 						value={programmingLanguages}
-						onChange={handleProgrammingLanguagesChange}
+						onChange={handleChange}
 						placeholder="Enter Programming Languages"
 					/>
 
@@ -61,7 +58,7 @@ export default function Skills({
 						id="webTech"
 						name="webTech"
 						value={webTech}
-						onChange={handleWebTechChange}
+						onChange={handleChange}
 						placeholder="Enter Web Technologies"
 					/>
 
@@ -69,9 +66,9 @@ export default function Skills({
 					<input
 						type="text"
 						id="softwareTools"
-						name="softwareTools"
+						name="softwareTool"
 						value={softwareTool}
-						onChange={handleSoftwareToolChange}
+						onChange={handleChange}
 						placeholder="Enter Software and Tools"
 					/>
 
@@ -81,7 +78,7 @@ export default function Skills({
 						id="concepts"
 						name="concepts"
 						value={concepts}
-						onChange={handleConceptsChange}
+						onChange={handleChange}
 						placeholder="Enter Concepts"
 					/>
 				</form>

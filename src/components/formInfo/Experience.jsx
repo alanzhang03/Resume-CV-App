@@ -3,17 +3,12 @@ import "../componentStyles/Experience.css";
 
 export default function Experience({
 	company,
-	handleCompanyChange,
 	position,
-	handlePositionChange,
 	startDateExp,
-	handleStartDateExpChange,
 	endDateExp,
-	handleEndDateExpChange,
 	locationExp,
-	handleLocationExpChange,
 	jobDescription,
-	handleJobDescriptionChange,
+	handleChange,
 }) {
 	const [isFormVisible, setIsFormVisible] = useState(false);
 	const formRef = useRef(null);
@@ -55,7 +50,7 @@ export default function Experience({
 						id="company"
 						name="company"
 						value={company}
-						onChange={handleCompanyChange}
+						onChange={handleChange}
 						placeholder="Enter Company Name"
 					/>
 
@@ -65,7 +60,7 @@ export default function Experience({
 						id="position"
 						name="position"
 						value={position}
-						onChange={handlePositionChange}
+						onChange={handleChange}
 						placeholder="Enter Position Title"
 					/>
 
@@ -75,7 +70,7 @@ export default function Experience({
 						id="startDateExp"
 						name="startDateExp"
 						value={startDateExp}
-						onChange={handleStartDateExpChange}
+						onChange={handleChange}
 						placeholder="Enter Start Date"
 					/>
 
@@ -85,7 +80,7 @@ export default function Experience({
 						id="endDateExp"
 						name="endDateExp"
 						value={endDateExp}
-						onChange={handleEndDateExpChange}
+						onChange={handleChange}
 						placeholder="Enter End Date"
 					/>
 
@@ -95,7 +90,7 @@ export default function Experience({
 						id="locationExp"
 						name="locationExp"
 						value={locationExp}
-						onChange={handleLocationExpChange}
+						onChange={handleChange}
 						placeholder="Enter Location"
 					/>
 
@@ -105,7 +100,7 @@ export default function Experience({
 						id="jobDescription"
 						name="jobDescription"
 						value={jobDescription}
-						onChange={handleJobDescriptionChange}
+						onChange={handleChange}
 						placeholder="Enter description"
 					/>
 				</form>

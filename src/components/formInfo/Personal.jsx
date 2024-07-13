@@ -6,10 +6,7 @@ export default function Personal({
 	email,
 	phone,
 	address,
-	handleChangeFullName,
-	handleChangeEmail,
-	handleChangeAddress,
-	handleChangePhone,
+	handleChange,
 }) {
 	const [isFormVisible, setIsFormVisible] = useState(false);
 	const formRef = useRef(null);
@@ -51,7 +48,7 @@ export default function Personal({
 						id="fullName"
 						name="fullName"
 						value={fullName}
-						onChange={handleChangeFullName}
+						onChange={handleChange}
 						placeholder="Enter first and last name"
 						required
 					/>
@@ -62,7 +59,7 @@ export default function Personal({
 						id="email"
 						name="email"
 						value={email}
-						onChange={handleChangeEmail}
+						onChange={handleChange}
 						placeholder="Enter Email Address"
 					/>
 
@@ -72,7 +69,7 @@ export default function Personal({
 						id="phone"
 						name="phone"
 						value={phone}
-						onChange={handleChangePhone}
+						onChange={handleChange}
 						placeholder="Enter Phone number"
 					/>
 
@@ -83,7 +80,7 @@ export default function Personal({
 						id="address"
 						name="address"
 						value={address}
-						onChange={handleChangeAddress}
+						onChange={handleChange}
 						placeholder="City, State"
 					/>
 				</form>

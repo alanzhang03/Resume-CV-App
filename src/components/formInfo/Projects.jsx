@@ -6,10 +6,7 @@ export default function Projects({
 	projectLink,
 	projectLanguage,
 	projectDescription,
-	handleChangeProjectLink,
-	handleChangeProjectName,
-	handleChangeProjectLanguage,
-	handleChangeProjectDescription,
+	handleChange,
 }) {
 	const [isFormVisible, setIsFormVisible] = useState(false);
 	const formRef = useRef(null);
@@ -51,7 +48,7 @@ export default function Projects({
 						id="projectName"
 						name="projectName"
 						value={projectName}
-						onChange={handleChangeProjectName}
+						onChange={handleChange}
 						placeholder="Enter project name"
 						required
 					/>
@@ -62,7 +59,7 @@ export default function Projects({
 						id="projectLink"
 						name="projectLink"
 						value={projectLink}
-						onChange={handleChangeProjectLink}
+						onChange={handleChange}
 						placeholder="Enter project Link (web address, Github, etc.)"
 					/>
 
@@ -72,7 +69,7 @@ export default function Projects({
 						id="projectLanguage"
 						name="projectLanguage"
 						value={projectLanguage}
-						onChange={handleChangeProjectLanguage}
+						onChange={handleChange}
 						placeholder="Enter project language"
 					/>
 
@@ -81,7 +78,7 @@ export default function Projects({
 						id="projectDescription"
 						name="projectDescription"
 						value={projectDescription}
-						onChange={handleChangeProjectDescription}
+						onChange={handleChange}
 						placeholder="Enter project description"
 					/>
 				</form>

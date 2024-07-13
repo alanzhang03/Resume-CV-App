@@ -22,7 +22,7 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
-	font-size: 1.2rem;
+	font-size: 1rem;
 }
 
 .personal-info-container li {
@@ -49,7 +49,7 @@
 	background-color: rgb(243, 244, 246, 255);
 	margin: 3vh auto;
 	width: 85%;
-	font-size: 1.7rem;
+	font-size: 1.3rem;
 }
 
 .education-info-container,
@@ -58,13 +58,13 @@
 	width: 85%;
 	margin: 0 auto;
 	display: flex;
-	font-size: 1.2rem;
+	font-size: 1rem;
 }
 
 .skills-section-info-container {
 	width: 85%;
 	margin: 0 auto;
-	font-size: 1.2rem;
+	font-size: 1rem;
 }
 
 .webtech,
@@ -105,7 +105,7 @@
 .links-text {
 	text-decoration: none;
 	font-weight: bold;
-	font-size: 1.6rem;
+	font-size: 1.2rem;
 	color: blue;
 }
 
@@ -129,5 +129,5 @@
 	gap: 0.3vw;
 }
 .divider {
-	font-size: 2rem;
+	font-size: 1.7rem;
 }

@@ -1,12 +1,12 @@
 .resume-builder {
 	display: flex;
 	flex-direction: row;
-	padding-left: 20vw;
+	padding-left: 15vw;
 }
 
 .form-section {
 	display: flex;
 	flex-direction: column;
-	gap: 4vh;
+	gap: 3vh;
 	padding-top: 3vh;
 }

@@ -5,8 +5,8 @@
 }
 
 .resume-personal-container {
-	height: auto;
-	width: auto;
+	height: 15vh;
+	width: 40vw;
 	background-color: cadetblue;
 	color: white;
 }
@@ -32,8 +32,8 @@
 
 .resume-other-container {
 	background-color: white;
-	width: auto;
-	height: auto;
+	width: 40vw;
+	height: 110vh;
 	margin-bottom: 5vh;
 }
 

@@ -1,87 +1,96 @@
 :root {
-	--input-color-bg: rgb(243, 244, 246);
+  --input-color-bg: rgb(243, 244, 246);
 }
 
 .personal {
-	border-radius: 10px;
-	padding: 1rem;
-	background-color: white;
-	margin-bottom: 2vh;
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: white;
+  margin-bottom: 2vh;
 }
 
 .personal-header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	cursor: pointer;
-	padding-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding-bottom: 0.5rem;
 }
 
-
-.personal-header-form-text{
-    font-size: 1.5rem;
+.personal-header-form-text {
+  font-size: 1.5rem;
 }
 
 .personal-header h1 {
-	display: flex;
-	align-items: center;
-	margin: 0;
+  display: flex;
+  align-items: center;
+  margin: 0;
 }
 
 .toggle-button {
-	background: none;
-	border: none;
-	font-size: 1.5rem;
-	cursor: pointer;
-	transition: transform 0.3s;
-	margin-left: auto; 
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: transform 0.3s;
+  margin-left: auto;
 }
 
 .rotate {
-	transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .personal-details-form-container {
-	max-height: 0;
-	overflow: hidden;
-	transition: max-height 0.5s ease-out, padding 0.5s ease-out;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out, padding 0.5s ease-out;
 }
 
 .personal-details-form-container.visible {
-	max-height: 500px; 
-	padding-top: 1rem;
+  max-height: 500px;
+  padding-top: 1rem;
 }
 
 .personal-details-form-container.hidden {
-	padding-top: 0;
+  padding-top: 0;
 }
 
 .personal-details-form {
-	display: flex;
-	flex-direction: column;
-	gap: 2vh;
-	padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  padding-top: 1rem;
 }
 
 .personal-details-form label {
-	font-size: 1.5rem;
-	font-weight: bold;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .personal-details-form input {
-	border-radius: 15px;
-	height: 4vh;
-	width: 25vw;
-	background-color: var(--input-color-bg);
-	border: 2px solid transparent;
-	transition: border-color 0.5s;
+  border-radius: 15px;
+  height: 4vh;
+  width: 25vw;
+  background-color: var(--input-color-bg);
+  border: 2px solid transparent;
+  transition: border-color 0.5s;
 }
 
 .personal-details-form input:focus {
-	border-color: blue;
-	outline: none;
+  border-color: blue;
+  outline: none;
 }
 
 .address-input {
-	margin-bottom: 2vh;
+  margin-bottom: 2vh;
+}
+
+@media (max-width: 1799px) and (min-width: 900px) {
+  .personal-header-form-text {
+    font-size: 1.25rem;
+  }
+  .personal-details-form label {
+    font-size: 1rem;
+    font-weight: bold;
+  }
 }

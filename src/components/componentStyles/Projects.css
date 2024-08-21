@@ -1,91 +1,101 @@
 :root {
-	--input-color-bg: rgb(243, 244, 246);
+  --input-color-bg: rgb(243, 244, 246);
 }
 
 .projects {
-	border-radius: 10px;
-	padding: 1rem;
-	background-color: white;
-	margin-bottom: 2vh;
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: white;
+  margin-bottom: 2vh;
 }
 
 .projects-header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	cursor: pointer;
-	padding-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding-bottom: 0.5rem;
 }
 
 .projects-header-form-text {
-	font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .projects-header h1 {
-	display: flex;
-	align-items: center;
-	margin: 0;
+  display: flex;
+  align-items: center;
+  margin: 0;
 }
 
 .toggle-button {
-	background: none;
-	border: none;
-	font-size: 1.5rem;
-	cursor: pointer;
-	transition: transform 0.3s;
-	margin-left: auto;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: transform 0.3s;
+  margin-left: auto;
 }
 
 .rotate {
-	transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .projects-form-container {
-	max-height: 0;
-	overflow: hidden;
-	transition: max-height 0.5s ease-out, padding 0.5s ease-out;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out, padding 0.5s ease-out;
 }
 
 .projects-form-container.visible {
-	max-height: 500px;
-	padding-top: 1rem;
+  max-height: 500px;
+  padding-top: 1rem;
 }
 
 .projects-form-container.hidden {
-	padding-top: 0;
+  padding-top: 0;
 }
 
 .projects-form {
-	display: flex;
-	flex-direction: column;
-	gap: 2vh;
-	padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  padding-top: 1rem;
 }
 
 .projects-form label {
-	font-size: 1.5rem;
-	font-weight: bold;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .projects-form input,
 .projects-form textarea {
-	border-radius: 15px;
-	height: 4vh;
-	width: 25vw;
-	background-color: var(--input-color-bg);
-	border: 2px solid transparent;
-	transition: border-color 0.5s;
+  border-radius: 15px;
+  height: 4vh;
+  width: 25vw;
+  background-color: var(--input-color-bg);
+  border: 2px solid transparent;
+  transition: border-color 0.5s;
 }
 
 .projects-form input:focus,
 .projects-form textarea:focus {
-	border-color: blue;
-	outline: none;
+  border-color: blue;
+  outline: none;
 }
 
 .projects-form textarea {
-	height: 12vh;
-	font-size: 0.95rem;
-	line-height: 1.5;
-	padding: 10px;
+  height: 12vh;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  padding: 10px;
+}
+
+@media (max-width: 1799px) and (min-width: 900px) {
+  .projects-header-form-text {
+    font-size: 1.25rem;
+  }
+  .projects-form label {
+    font-size: 1rem;
+    font-weight: bold;
+  }
 }

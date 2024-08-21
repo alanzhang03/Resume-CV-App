@@ -1,133 +1,174 @@
 .resume-preview {
-	padding-left: 5vw;
-	font-family: "Montserrat";
-	padding-right: 1vw;
+  padding-left: 5vw;
+  font-family: "Montserrat";
+  padding-right: 1vw;
 }
 
 .resume-personal-container {
-	height: 15vh;
-	width: 40vw;
-	background-color: cadetblue;
-	color: white;
+  height: 15vh;
+  width: 40vw;
+  background-color: cadetblue;
+  color: white;
 }
 
 .full-name {
-	padding-top: 1.5vh;
-	text-align: center;
-	font-size: 2.5rem;
+  padding-top: 1.5vh;
+  text-align: center;
+  font-size: 2.5rem;
 }
 
 .personal-info-container {
-	margin-bottom: 2vh;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	font-size: 1rem;
+  margin-bottom: 2vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 1rem;
 }
 
 .personal-info-container li {
-	text-decoration: none;
-	list-style: none;
+  text-decoration: none;
+  list-style: none;
 }
 
 .resume-other-container {
-	background-color: white;
-	width: 40vw;
-	height: 110vh;
-	margin-bottom: 5vh;
+  background-color: white;
+  width: 40vw;
+  height: 130vh;
+  margin-bottom: 5vh;
 }
 
 .resume-preview-container {
-	display: flex;
-	flex-direction: column;
-	padding-top: 3vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 3vh;
 }
 
 .resume-other-container h1 {
-	text-align: center;
-	height: auto;
-	background-color: rgb(243, 244, 246, 255);
-	margin: 3vh auto;
-	width: 85%;
-	font-size: 1.3rem;
+  text-align: center;
+  height: auto;
+  background-color: rgb(243, 244, 246, 255);
+  margin: 3vh auto;
+  width: 85%;
+  font-size: 1.3rem;
 }
 
 .education-info-container,
 .experience-info-container,
 .projects-info-container {
-	width: 85%;
-	margin: 0 auto;
-	display: flex;
-	font-size: 1rem;
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  font-size: 1rem;
 }
 
 .skills-section-info-container {
-	width: 85%;
-	margin: 0 auto;
-	font-size: 1rem;
+  width: 85%;
+  margin: 0 auto;
+  font-size: 1rem;
 }
 
 .webtech,
 .programLanguage,
 .softwareTool,
 .concepts {
-	display: flex;
+  display: flex;
 }
 .webTech-label,
 .programLanguage-label,
 .softwareTool-label,
 .concepts-label {
-	font-weight: bold;
-	margin-bottom: 2vh;
-	margin-right: 0.3vw;
+  font-weight: bold;
+  margin-bottom: 2vh;
+  margin-right: 0.3vw;
 }
 
 .education-school-and-degree {
-	padding-left: 1.5vw;
+  padding-left: 1.5vw;
 }
 .education-school,
 .experience-position,
 .experience-company {
-	font-weight: bold;
-	padding-bottom: 0.5vh;
+  font-weight: bold;
+  padding-bottom: 0.5vh;
 }
 
 .experience-jobDescription,
 .project-description {
-	padding-bottom: 0.5vh;
-	line-height: 1.4;
+  padding-bottom: 0.5vh;
+  line-height: 1.4;
 }
 
 .dates {
-	padding-bottom: 0.5vh;
+  padding-bottom: 0.5vh;
 }
 
 .links-text {
-	text-decoration: none;
-	font-weight: bold;
-	font-size: 1.2rem;
-	color: blue;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: blue;
 }
 
 .links-text:hover {
-	color: rgb(100, 100, 227);
+  color: rgb(100, 100, 227);
 }
 
 .experience-company-position-jobDescription {
-	padding-left: 1.5vw;
-	max-width: 70%;
+  padding-left: 1.5vw;
+  max-width: 70%;
 }
 
 .projects-info-container {
-	display: flex;
-	flex-direction: column;
-	gap: 1.2vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2vh;
 }
 .projects-name-and-languages {
-	display: flex;
-	align-items: center;
-	gap: 0.3vw;
+  display: flex;
+  align-items: center;
+  gap: 0.3vw;
 }
 .divider {
-	font-size: 1.7rem;
+  font-size: 1.7rem;
+}
+
+@media (max-width: 1799px) and (min-width: 900px) {
+  .full-name {
+    padding-top: 1.5vh;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .personal-info-container {
+    margin-bottom: 2vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 0.75rem;
+  }
+  .resume-other-container h1 {
+    font-size: 1rem;
+  }
+  .education-info-container,
+  .experience-info-container,
+  .projects-info-container {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    font-size: 0.75rem;
+  }
+
+  .skills-section-info-container {
+    width: 85%;
+    margin: 0 auto;
+    font-size: 0.75rem;
+  }
+  .divider {
+    font-size: 1rem;
+  }
+  .resume-other-container {
+    background-color: white;
+    width: 40vw;
+    height: 100vh;
+    margin-bottom: 5vh;
+  }
 }

@@ -171,4 +171,10 @@
     height: 100vh;
     margin-bottom: 5vh;
   }
+  .links-text {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: blue;
+  }
 }

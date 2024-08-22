@@ -13,7 +13,7 @@ export default function ResumePreview({ data }) {
 						<li>📍 {data.address}</li>
 					</div>
 				</div>
-
+				
 				<div className="resume-other-container">
 					<div className="education-section-resume">
 						<h1 className="education-header-resume-preview">Education</h1>
